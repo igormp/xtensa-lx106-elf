@@ -1,29 +1,34 @@
+{
+  "toolchain-xtensa-lx106-elf": [
     {
-      "toolchain-xtensa-lx106-elf": [
-        {
-          "system": ["windows", "windows_amd64", "windows_x86"],
-          "url": "https://github.com/WallaceWilliam/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.tar.gz",
-          "version": "8.4.0+esp2020r3"
-        },
-        {
-          "system": ["windows", "windows_amd64", "windows_x86"],
-          "url": "https://github.com/WallaceWilliam/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0.tar.gz",
-          "version": "5.2.0+100"
-        },
-        {
-          "system": ["darwin_x86_64", "darwin_i386"],
-          "url": "https://github.com/WallaceWilliam/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-macos-1.22.0-100-ge567ec7-5.2.0.tar.gz",
-          "version": "5.2.0+100"
-        },
-        {
-          "system": ["windows", "windows_amd64", "windows_x86"],
-          "url": "https://github.com/WallaceWilliam/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-win32-1.22.0-92-ge567ec7-5.2.0.tar.gz",
-          "version": "5.2.0+92"
-        },
-        {
-          "system": ["darwin_x86_64", "darwin_i386"],
-          "url": "https://github.com/WallaceWilliam/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-osx-1.22.0-92-ge567ec7-5.2.0.tar.gz",
-          "version": "5.2.0+92"
-        }
-      ]
+      "system": ["windows", "windows_amd64", "windows_x86"],
+      "url": "https://github.com/igormp/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.tar.gz",
+      "version": "8.4.0+esp2020r3"
+    },
+    {
+      "system": ["windows", "windows_amd64", "windows_x86"],
+      "url": "https://github.com/igormp/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0.tar.gz",
+      "version": "5.2.0+100"
+    },
+    {
+      "system": ["darwin_x86_64", "darwin_i386"],
+      "url": "https://github.com/igormp/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-macos-1.22.0-100-ge567ec7-5.2.0.tar.gz",
+      "version": "5.2.0+100"
+    },
+    {
+      "system": ["windows", "windows_amd64", "windows_x86"],
+      "url": "https://github.com/igormp/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-win32-1.22.0-92-ge567ec7-5.2.0.tar.gz",
+      "version": "5.2.0+92"
+    },
+    {
+      "system": ["darwin_x86_64", "darwin_i386"],
+      "url": "https://github.com/igormp/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-osx-1.22.0-92-ge567ec7-5.2.0.tar.gz",
+      "version": "5.2.0+92"
+    },
+    {
+      "system": ["linux_x86_64"],
+      "url": "https://github.com/igormp/xtensa-lx106-elf/raw/master/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-linux-amd64.tar.gz",
+      "version": "8.4.0+esp2020r3"
     }
+  ]
+}
